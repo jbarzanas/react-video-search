@@ -1,0 +1,105 @@
+body {
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+    header {
+        border: 1px solid antiquewhite;
+        border-radius: 5px;
+    }
+    h1, .search-container {
+        margin: 20px;
+        display: inline-block;
+    }
+    
+    .video-container {
+        border: 1px solid black;
+        width: 60%;
+        float: left;
+    }
+    
+    .related-videos {
+        border: 1px solid black;
+        width: 30%;
+        float: right;
+        cursor: pointer;
+    }
+    .related-videos:hover {
+        background-color: #343a40;
+    }
+    
+    .video-container,.related-videos {
+        padding: 10px;
+    }
+      
+    .search-input {
+        height: 40px;
+        padding: 0 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    .search-button {
+        margin-left: 10px;
+        height: 40px;
+        padding: 0 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #fff;
+        background-color: red;
+    }
+    .search-button:hover {
+        background-color: #343a40;
+    }
+    .comment {
+        font-size: 18px;
+        font-family: monospace;
+        font-style: italic;
+    }
+    .comment-section {
+        border: 1px solid white;
+        padding: 10px;
+    }
+    .comment-bar {
+        border-radius: 5px;
+    }
+
+    .add-comment {
+        margin-left: 10px;
+        height: 30px;
+        padding: 0 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #fff;
+        background-color: green;
+    }
+    emphasis {
+        color: black;
+        background-color: red;
+        border-radius: 5px;
+        font-family:monospace;
+        margin: 5px;
+    }
+
+    .comment-likes p, .comment-likes button{
+        display: inline-block;
+        background-color: transparent;
+        border: none;
+    }
+    
+    
+  
+
+  
+   
+  
+  
+      
+  
+
+      
+    
+    
